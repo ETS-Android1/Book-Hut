@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_margin="20dp"
+        card_view:cardCornerRadius="20dp"
+        card_view:contentPadding="10dp"
+        app:cardElevation="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Book Title: "
+            android:textColor="#B42833"/>
+
+        <TextView
+            android:id="@+id/book_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Java"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="45dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Author Name: "
+            android:textColor="#B42833"/>
+
+        <TextView
+            android:id="@+id/author_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="Asad Jawaid"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="90dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Categories: "
+            android:textColor="#B42833"/>
+
+        <TextView
+            android:id="@+id/book_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="115dp"
+            android:text="Artsdfsdf"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="135dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Page count: "
+            android:textColor="#B42833"/>
+
+        <TextView
+            android:id="@+id/page_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="160dp"
+            android:text="Page Count: "
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/add_favourites"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#B42833"
+            android:text="Add To Favourites"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="190dp"/>
+
+        <Button
+            android:id="@+id/preview_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#B42833"
+            android:text="Preview Book"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="240dp"/>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

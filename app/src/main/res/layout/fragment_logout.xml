@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LogoutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:textSize="30sp"
+        android:text="sdasd"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/bookLogo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/booklogo"
+        app:srcCompat="@drawable/book_logo" />
+
+    <Button
+        android:id="@+id/logout_user"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#E34133"
+        android:text="@string/logout"
+        android:textSize="20sp"
+        android:translationY="580dp"
+        app:cornerRadius="10dp" />
+
+</FrameLayout>

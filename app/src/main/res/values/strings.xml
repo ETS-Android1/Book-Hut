@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BookApplication</string>
+    <string name="title">Book Hut</string>
+    <string name="booklogo">BookLogo</string>
+    <string name="wave">wave</string>
+    <string name="login_title">Login</string>
+    <string name="sign_up_title">Sign Up</string>
+    <string name="welcome_text">Welcome to Book Hut.</string>
+    <string name="started">To get started login or sign up.</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="enter_your_full_name">Enter your full name</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="login">Login</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back">◄ Back</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="have_a_great_day">Have a great day!</string>
+    <string name="search_book_online">Search book online</string>
+    <string name="enter_a_book_you_would_like_to_search">Enter a book you would like to search</string>
+    <string name="book_name">Book Name</string>
+
+</resources>
